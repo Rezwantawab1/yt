@@ -8,7 +8,7 @@ keep_alive()
 
 api_key = os.environ.get("BOT_TOKEN")
 
-bot = TeleBot(api_key)
+bot = telebot.TeleBot(api_key)
 #button
 
 
