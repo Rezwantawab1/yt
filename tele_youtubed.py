@@ -1,5 +1,6 @@
 import yt_dlp
 import telebot
+import os
 from telebot.types import InlineKeyboardButton , InlineKeyboardMarkup
 from keep_alive import keep_alive
 keep_alive()
