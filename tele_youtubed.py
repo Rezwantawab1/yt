@@ -5,10 +5,9 @@ from keep_alive import keep_alive
 keep_alive()
 
 
-api_key = "7801225750:AAEqJnAvQgGI7pXXKemNkW3yp4qrdz1JOIU"
+api_key = os.environ.get("BOT_TOKEN")
 
-bot = telebot.TeleBot(api_key)
-
+bot = TeleBot(api_key)
 #button
 
 
